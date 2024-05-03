@@ -1,0 +1,236 @@
+.body{
+	margin: 0px;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.navbar-left{
+	width:  85%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+}
+.navbar-right {
+	justify-content: space-between;
+}
+.navbar-right ul{
+	display: flex;
+    width: max-content;
+}
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #444444;
+	font-family: "Source Code Pro", monospace;
+	font-weight: bold;
+	font-size: 22px;
+}
+.logo {
+	width: 268px;
+	height: 56px;
+	background: #00000000;
+}
+.main {
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.container-main {
+	width: 589px;
+	margin: 10%;
+	padding: 8px 8px 8px 8px;
+  	background: #EFEFEF70;
+  	border-color: #00000000;
+  	border-width: 1px;
+  	border-style: solid;
+  	border-radius: 20px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	justify-content: space-between;
+}
+.container-main-title {
+	font-family: "Source Sans 3";
+  	font-weight: bold;
+  	font-size: 40px;
+	text-align: left;
+}
+.container-main-description	{
+	width: 370px;
+	font-family: "Source Code Pro";
+  	font-weight: 350;
+  	font-size: 16px;
+	text-align: left;
+}
+.container-main-buttons {
+	display: flex;
+    padding: 1rem;
+    justify-content: flex-start;
+	align-items: center;
+    font-family: "Source Code Pro", monospace;
+}
+.container-main-buttons a{
+	text-decoration: none;
+	color: white;
+	font-family: "Source Code Pro", monospace;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0 .5rem .5rem 0;
+}
+.container-main-button-left{
+	background: #003C43;
+    border: 4px;
+    border-style: solid;
+    border-color: #003C43;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.features {
+	margin: 80px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.feature {
+	font-family: "Source Code Pro";
+	width: 280px;
+	padding: 20px;
+	margin: 30px;
+}
+.feature i {
+	color: #135d66;
+}
+.benefits {
+	font-family: "Source Code Pro";
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: center;
+	background: #EFF8F6;
+}
+.benefit-up {
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+	margin: 1rem;
+}
+.benefit-image1 {
+	width: 26%;
+	height: 22%;
+	border-radius: 15px 15px 15px 15px;
+}
+.benefit-down {
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+	margin: 1rem;
+}
+.benefit-image2 {
+	width: 30%;
+	height: 30%;
+	border-radius: 15px 15px 15px 15px;
+}
+.benefit-content {
+	width: 589px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	margin: 40px 50px;
+}
+.testimonies {
+	font-family: "Source Code Pro";
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px;
+}
+.testimony {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+.testimony p {
+	width: 700px;
+	text-align: center;
+	font-size: 18px;
+}
+.owner-image {
+	width: 45px;
+	height: 40px;
+	border-radius: 24px 24px 24px 24px;
+}
+.owner-testimony {
+	opacity: 80%;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	color: #AAAAAA;
+	margin: 10px; 
+}
+.join-us {
+	font-family: "Source Code Pro";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 100px;
+}
+.join-us-title {
+	color: #003C43;
+	font-weight: 600;
+	font-size: 36px;
+}
+.join-us-description {
+	width: 700px;
+	padding: 30px;
+	font-size: 13px;
+}
+.join-us-button{
+	text-decoration: none;
+	color: white;
+	font-family: "Source Code Pro", monospace;
+	font-weight: bold;
+	font-size: 22px;
+	background: #003C43;
+    border: 4px;
+    border-style: solid;
+    border-color: #003C43;
+    border-radius: 8px;
+    padding: 4px;
+}
+.footer {
+	font-family: "Source Code Pro";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #77b0aa;
+	color: white;
+}
+.footer-content-links {
+	align-content: center;
+	flex-direction: row;
+}
+.footer ul li {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	display: inline-block;
+	
+}
+.footer-description {
+	align-items: center;
+	justify-content: center;
+}
